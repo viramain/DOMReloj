@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Outline&family=Orbitron&display=swap');
+body {
+    background: black;
+}
+
+
+/* la altura del main es la de la pantalla */
+
+main {
+    min-height: 100vh;
+}
+
+.tituloFecha {
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+}
+
+.tituloHora {
+    font-family: 'Londrina Outline', cursive;
+    color: white;
+    font-size: 4em;
+}
+
+
+/* Se hace una sombra al texto y se agregan capas de text.shadow que se aumenta el disfuminado (blur, 3er valor) para que haga efecto neon */
+
+.neon-green {
+    text-shadow: 0 0 5px #7bffce, 0 0 10px #7bffce, 0 0 15px #7bffce, 0 0 20px #7bffce, 0 0 40px #7bffce, 0 0 80px #7bffce, 0 0 100px #7bffce;
+}
+
+.neon-yellow {
+    text-shadow: 0 0 5px #d5fa06, 0 0 10px #d5fa06, 0 0 15px #d5fa06, 0 0 20px #d5fa06, 0 0 40px #d5fa06, 0 0 80px #d5fa06, 0 0 100px #d5fa06;
+}
+
+.neon-pink {
+    text-shadow: 0 0 5px #e90677, 0 0 10px #e90677, 0 0 15px #e90677, 0 0 20px #e90677, 0 0 40px #e90677, 0 0 80px #e90677, 0 0 100px #e90677;
+}
+
+.neon-blue {
+    text-shadow: 0 0 5px #3b06fa, 0 0 10px #3b06fa, 0 0 15px #3b06fa, 0 0 20px #3b06fa, 0 0 40px #3b06fa, 0 0 80px #3b06fa, 0 0 100px #3b06fa;
+}
+
+
+/* botones */
+
+.boton {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.btn-green {
+    background: #7bffce;
+}
+
+.btn-yellow {
+    background: #d5fa06;
+}
+
+.btn-pink {
+    background: #e90677;
+}
